@@ -27,7 +27,7 @@
       <h2 v-else class="placeholder">test</h2>
     </div>
     <button v-if="props.password" class="password-copy" :class="copiedTimer ? 'before:opacity-100' : 'before:opacity-0'" @click="copyToClipboard">
-      <img src="src/assets/img/icon-copy.svg" alt="" />
+      <img src="/src/assets/img/icon-copy.svg" alt="" />
     </button>
   </div>
 </template>
